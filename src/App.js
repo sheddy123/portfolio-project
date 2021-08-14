@@ -1,7 +1,12 @@
 import './App.css';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/Navbar/Navbar';
 function App() {
-  return <h2 className='text-danger'>Portfolio</h2>;
+  return (
+    <>
+      <Navbar />
+    </>
+  );
 }
 
 export default App;
