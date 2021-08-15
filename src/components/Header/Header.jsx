@@ -7,7 +7,7 @@ const Header = () => {
     <>
       <div className='header-wrapper'>
         <div className='main-info'>
-          <h1>web development and websites promotions</h1>
+          <h1></h1>
           <Typed
             className='typed-text'
             strings={[
@@ -23,6 +23,14 @@ const Header = () => {
           <a href='' className='btn-main-offer'>
             contact me
           </a>
+        </div>
+        <div className='container container-personal-profile'>
+          <div className='row personal-profile'>
+            <div className='col-md-4 personal-profile__avatar'>
+              <img className='img-profile' src='' alt='' />
+            </div>
+            <div className='col-md-8'></div>
+          </div>
         </div>
       </div>
     </>

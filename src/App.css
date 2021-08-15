@@ -44,9 +44,12 @@ body {
 /************************************PARTICLES JS*********************************/
 .tsparticles-canvas-el {
   position: absolute;
-  height: 100vh;
+  height: 88vh;
   width: 100vw;
   z-index: 1;
+}
+.tsparticles-canvas-el {
+  height: 78% !important;
 }
 
 @media (max-width: 768px) {

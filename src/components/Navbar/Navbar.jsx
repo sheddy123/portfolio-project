@@ -27,7 +27,7 @@ const Navbar = () => {
           <div className='collapse navbar-collapse' id='navbarSupportedContent'>
             <ul className='navbar-nav ml-auto mb-2 mb-lg-0'>
               <li className='nav-item active'>
-                <a className='nav-link' aria-current='page' href='#'>
+                <a className='nav-link' aria-current='page' href='/#hello-text'>
                   Home
                 </a>
               </li>
