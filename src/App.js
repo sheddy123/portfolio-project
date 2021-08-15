@@ -3,10 +3,12 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar/Navbar';
 import Header from './components/Header/Header';
 import Particles from 'react-particles-js';
+import Hello from './components/Hello/Hello';
 function App() {
   return (
     <>
       <Particles
+        className='particles-canvas'
         params={{
           particles: {
             number: {
@@ -28,6 +30,7 @@ function App() {
       />
       <Navbar />
       <Header />
+      <Hello />
     </>
   );
 }

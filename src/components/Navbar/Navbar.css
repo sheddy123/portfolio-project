@@ -2,6 +2,7 @@
   --primary-white: #fff;
   --primary-orange: #f9ab00;
   --primary-dark: rgba(255, 255, 255, 0);
+  --primary-nav-item-link: #371616 !important;
 }
 /**********************************Navbar logo ********************************************/
 .logo {
@@ -22,10 +23,14 @@ nav {
 nav ul li {
   text-transform: uppercase;
 }
+.navbar {
+  background-color: #f4f4f4 !important;
+  box-shadow: 0px 1px 12px #202b46;
+}
 .navbar-nav > li > a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  color: var(--primary-white) !important;
+  color: var(--primary-nav-item-link) !important;
   border-top: 0.1875rem solid var(--primary-dark);
 }
 
